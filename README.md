@@ -60,7 +60,7 @@ Based on the `RAG_APPLICATION` implementation:
 
 ### 1. Clone the Repository
 ```bash
-git clone <repository-url>
+git clone https://github.com/Madhesh4124/sebi_regulatory_rag_with_endee.git
 cd sebi_regulatory_rag_with_endee
 ```
 
