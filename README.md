@@ -44,7 +44,6 @@ Based on the `RAG_APPLICATION` implementation:
     *   **UI**: Built with **Streamlit** for an interactive chat interface.
     *   **Retrieval**: Queries Endee for the top-k most similar chunks to the user's question.
     *   **Generation**: Uses **Google's Gemma 2-27b-it** (via Gemini API) to synthesize an answer based *only* on the retrieved context.
-    *   **Citations**: The app strictly cites the specific clause numbers used in the answer (e.g., `[1.1.2]`).
 
 ### Data Flow
 `PDF` → `Chunks (JSON)` → `Embeddings (JSON)` → `Endee (Vector DB)` → `Streamlit App`
