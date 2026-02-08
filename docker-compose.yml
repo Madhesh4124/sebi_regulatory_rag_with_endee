@@ -6,8 +6,8 @@ services:
       - "8080:8080"
     ulimits:
       nofile: 100000
-# ----------------------------------------------------
-# Logging Configuration Block
+    # ----------------------------------------------------
+    # Logging Configuration Block
     logging:
       driver: "json-file" # Explicitly use the default driver
       options:
@@ -17,7 +17,7 @@ services:
         # Set the maximum number of log files to keep
         # (200m * 5 files = 1000m or 1 GB total log space)
         max-file: "5"
-# ----------------------------------------------------
+    # ----------------------------------------------------
     environment:
       NDD_NUM_THREADS: 0
       NDD_AUTH_TOKEN: "" # Replace with your auth token

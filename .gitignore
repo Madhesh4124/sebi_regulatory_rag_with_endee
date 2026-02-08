@@ -23,3 +23,8 @@ frontend/*
 
 # DS Store
 .DS_Store
+
+RAG_APPLICATION/.env
+
+__pycache__/
+*.pyc
