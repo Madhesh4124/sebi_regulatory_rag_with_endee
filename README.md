@@ -2,6 +2,9 @@
 
 A Retrieval-Augmented Generation (RAG) system built to provide precise, grounded answers to regulatory queries using the **SEBI Master Circular for Depositories** and **Endee** (Vector Database).
 
+## Screenshot
+![SEBI Regulatory Intelligence App Screenshot](assets/screenshot.png)
+
 ---
 
 ## Dataset Justification
@@ -14,7 +17,7 @@ This project utilizes the **SEBI Master Circular for Depositories (October 06, 2
 3.  **Structured Format**: The document is structured with clear clauses (e.g., `1.1.1`), making it ideal for semantic chunking and precise retrieval.
 4.  **Regulatory Authority**: As a SEBI-issued document, it carries the highest level of authority for market participants, ensuring the AI's answers are legally grounded.
 
-**File Location**: `dataset/1696831738330.pdf`
+**File Location**: `dataset\Master_Circular_For_Depositories.pdf`
 
 ---
 
