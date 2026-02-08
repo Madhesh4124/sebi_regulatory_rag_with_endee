@@ -240,3 +240,15 @@ streamlit run app.py
 ```
 
 Open your browser to the URL shown (usually `http://localhost:8501`). You can now ask questions effectively grounded in SEBI regulations.
+
+---
+
+## Conclusion
+
+This project demonstrates a practical, regulation-aware Retrieval-Augmented Generation (RAG) system designed for querying SEBI depository regulations in a grounded and verifiable manner. By combining clause-level semantic chunking, vector-based retrieval using Endee, and constrained generation with mandatory citations, the system prioritizes correctness and traceability over open-ended text generation.
+
+Rather than treating the language model as a source of regulatory knowledge, the design deliberately positions it as a synthesis layer operating strictly on retrieved SEBI clauses. This makes the system suitable for assistive use in compliance analysis, regulatory interpretation, and academic exploration—while explicitly avoiding unsupported inference or legal advice.
+
+While the current implementation is limited to a single SEBI Master Circular and requires manual re-ingestion for updates, the architecture is extensible. Additional circulars, cross-document retrieval, and automated update pipelines can be incorporated without changing the core design principles.
+
+Overall, this project serves as a reference implementation of how RAG systems can be responsibly applied in regulated domains, where transparency, source attribution, and controlled behavior are more important than generative breadth.
